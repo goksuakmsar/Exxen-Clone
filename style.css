@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.containers{
+    width: 69%;
+    margin: auto;
+}
+.renk{
+    background-color: #ffcb0c;
+}
+.ticari{
+    background-color: black;
+    color: #ffcb0c;
+}
+.ticari:hover,.ticari-md:hover{
+    background-color: black;
+    color: #ffcb0c;
+}
+.select-icin{
+    width: 45px;
+}
+.ticari-md{
+    display: none;
+    background-color: black;
+    color: #ffcb0c;
+}
+.uyeol{
+    background-color: #ffcb0c;
+    color: black;
+}
+header .col-4 input::placeholder{
+    color: black;
+}
+.renklendir{
+    color: #ffcb0c;
+    text-decoration: none;
+    font-size: 25px;
+   
+    
+}
+
+@media (max-width:1180px){
+    .ticari{
+        display: none;
+    }
+    .ticari-md{
+        display: block;
+    }
+}
+@media screen and (max-width:768px) {
+    .containers{
+        width: 100%;
+        
+    }
+}
+/* #ffcb0c */
